@@ -1,0 +1,20 @@
+[project]
+name = "spotify-project"
+version = "0.1.0"
+description = "Spotify track popularity analytics project using Python, MySQL, and Tableau"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "ipykernel",
+    "jupyter",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "pymysql",
+    "sqlalchemy",
+    "seaborn",
+]
+
+[tool.uv]
+package = false
