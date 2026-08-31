@@ -1,1 +1,1 @@
-# week_7_ml_projecct
+# week_7_ml_project
