@@ -866,7 +866,6 @@ The project therefore demonstrates how Python, SQL, relational database design, 
 
 ---
 
-# Author
-
-**Dr. Jan Noel Vero**
+Jan Noel Vero
+Lara Cacador
 
