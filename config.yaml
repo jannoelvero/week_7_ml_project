@@ -1,0 +1,42 @@
+project:
+  name: "Spotify Track Popularity Analytics"
+  version: "1.0"
+  author: "Jan Noel Vero"
+  year: 2026
+
+paths:
+  raw_data: "data/raw"
+  clean_data: "data/clean"
+  notebooks: "notebooks"
+  sql: "sql_scripts"
+  figures: "figures"
+  source: "src"
+
+data:
+  cleaned_file: "spotify_final.csv"
+  mysql_file: "spotify_mysql.csv"
+  total_tracks: 8775
+
+database:
+  dialect: "mysql"
+  driver: "pymysql"
+  host: "127.0.0.1"
+  port: 3306
+  database: "spotify_db"
+
+tables:
+  staging: "spotify_tracks"
+  artists: "artists"
+  albums: "albums"
+  tracks: "tracks"
+  genres: "genres"
+  track_genres: "track_genres"
+
+analysis:
+  minimum_artist_tracks: 5
+  minimum_genre_tracks: 30
+  minimum_decade_tracks: 30
+
+tableau:
+  workbook: "spotify_project.twb"
+  primary_source: "spotify_tracks"

@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+Untitled.ipynb
+Fixing errors.ipynb
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Anaconda
+anaconda_projects/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
