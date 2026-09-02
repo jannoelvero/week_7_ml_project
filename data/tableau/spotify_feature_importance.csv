@@ -1,0 +1,11 @@
+feature,importance,importance_std
+Artist Popularity,0.1377,0.009
+Album Size,0.0753,0.0125
+Track Duration,0.0343,0.017
+Artist Followers,0.0322,0.0147
+Released in 2020s,0.0294,0.0046
+Track Position in Album,0.0231,0.0099
+Released in 2010s,0.0203,0.0112
+Single Release,0.0191,0.0074
+Genre Information Missing,0.0168,0.0079
+Soundtrack Genre,0.0092,0.0051
