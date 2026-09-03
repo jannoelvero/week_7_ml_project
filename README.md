@@ -98,3 +98,85 @@ Additional statistical analysis, hypothesis testing, SQL analysis, Tableau visua
 ---
 
 **Status: Work in Progress**
+spotify_team_sync/
+│
+├── README.md
+├── .gitignore
+├── config.yaml
+├── pyproject.toml
+├── uv.lock
+│
+├── data/
+│   ├── raw/
+│   │   ├── spotify_data_clean.csv
+│   │   └── track_data_final.csv
+│   │
+│   ├── clean/
+│   │   ├── spotify_final.csv
+│   │   ├── spotify_features.csv
+│   │   └── spotify_mysql.csv
+│   │
+│   └── tableau/
+│       ├── spotify_tableau_final.csv
+│       ├── spotify_model_performance.csv
+│       └── spotify_feature_importance.csv
+│
+├── notebooks/
+│   ├── 00_business_background.ipynb
+│   ├── 01_data_loading.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_exploratory_analysis.ipynb
+│   ├── 04_business_analysis.ipynb
+│   ├── 05_feature_engineering.ipynb
+│   ├── 06_machine_learning.ipynb
+│   └── 08_visualization.ipynb
+│
+├── sql_scripts/
+│   └── spotify_analysis.sql
+│
+├── tableau/
+│   └── spotify_analysis.twbx
+│
+└── src/
+    └── __init__.py
+spotify_team_sync/
+│
+├── README.md
+├── .gitignore
+├── config.yaml
+├── pyproject.toml
+├── uv.lock
+│
+├── data/
+│   ├── raw/
+│   │   ├── spotify_data_clean.csv
+│   │   └── track_data_final.csv
+│   │
+│   ├── clean/
+│   │   ├── spotify_final.csv
+│   │   ├── spotify_features.csv
+│   │   └── spotify_mysql.csv
+│   │
+│   └── tableau/
+│       ├── spotify_tableau_final.csv
+│       ├── spotify_model_performance.csv
+│       └── spotify_feature_importance.csv
+│
+├── notebooks/
+│   ├── 00_business_background.ipynb
+│   ├── 01_data_loading.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_exploratory_analysis.ipynb
+│   ├── 04_business_analysis.ipynb
+│   ├── 05_feature_engineering.ipynb
+│   ├── 06_machine_learning.ipynb
+│   └── 08_visualization.ipynb
+│
+├── sql_scripts/
+│   └── spotify_analysis.sql
+│
+├── tableau/
+│   └── spotify_analysis.twbx
+│
+└── src/
+    └── __init__.py

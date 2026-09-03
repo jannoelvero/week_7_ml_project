@@ -7,14 +7,18 @@ project:
 paths:
   raw_data: "data/raw"
   clean_data: "data/clean"
+  tableau_data: "data/tableau"
   notebooks: "notebooks"
   sql: "sql_scripts"
+  tableau: "tableau"
   figures: "figures"
   source: "src"
 
 data:
   cleaned_file: "spotify_final.csv"
+  feature_file: "spotify_features.csv"
   mysql_file: "spotify_mysql.csv"
+  tableau_file: "spotify_tableau_final.csv"
   total_tracks: 8775
 
 database:
@@ -33,10 +37,13 @@ tables:
   track_genres: "track_genres"
 
 analysis:
-  minimum_artist_tracks: 5
+  minimum_artist_tracks: 10
   minimum_genre_tracks: 30
   minimum_decade_tracks: 30
+  high_popularity_threshold: 90
 
 tableau:
-  workbook: "spotify_project.twb"
-  primary_source: "spotify_tracks"
+  workbook: "tableau/spotify_analysis.twbx"
+  primary_source: "data/tableau/spotify_tableau_final.csv"
+  model_performance_source: "data/tableau/spotify_model_performance.csv"
+  feature_importance_source: "data/tableau/spotify_feature_importance.csv"
